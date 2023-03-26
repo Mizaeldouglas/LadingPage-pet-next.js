@@ -1,0 +1,69 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixins.scss";
+
+.title {
+    @include max-width;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem
+}
+
+.container {
+    @include max-width;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10rem;
+
+    .service {
+        padding-top: 5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .img {
+        border-radius: 50%;
+        margin-bottom: 3rem;
+    }
+
+    h3 {
+        margin-bottom: 3rem;
+    }
+
+    p {
+        font-size: 14px;
+        font-weight: 100;
+        color: #3A54B4;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    .serviceBrushing {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+
+
+
+    }
+
+    .serviceCheckup {
+        margin: 0 10rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+
+
+    }
+
+    .serviceDental {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+}

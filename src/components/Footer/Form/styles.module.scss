@@ -1,0 +1,64 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+.container {
+    background-color: $colorText;
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem 0;
+        font-size: 58px;
+        font-weight: bold;
+        color: $white;
+    }
+
+    .list {
+        display: flex;
+        justify-content: space-evenly;
+        color: $white;
+        text-align: center;
+
+        label {
+            font-weight: bold;
+        }
+
+        li {
+            padding: 0.5rem 0;
+            width: 14rem;
+            list-style: none;
+        }
+    }
+
+    .formArea {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+        form {
+            overflow: hidden;
+            position: relative;
+            width: 80%;
+        }
+
+        input {
+            color: #fff;
+
+        }
+
+        label {
+            color: #fff;
+        }
+
+
+
+    }
+
+    .formAreaNameEmail {}
+
+}

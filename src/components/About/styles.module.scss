@@ -1,0 +1,36 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixins.scss";
+
+.container {
+    @include max-width;
+    height: 70rem;
+    display: flex;
+    align-items: center;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+
+
+    .image {
+        .pet {
+            width: 310px;
+            height: 320px;
+            border-radius: 50%;
+        }
+    }
+
+    .text {
+        padding-left: 15rem;
+
+        h1 {
+            color: $colorText;
+            font-size: 62px;
+        }
+
+        p {
+            padding-top: 3rem;
+            font-size: 14px;
+            color: #8D9BCC;
+            padding-bottom: 4rem;
+        }
+    }
+}
