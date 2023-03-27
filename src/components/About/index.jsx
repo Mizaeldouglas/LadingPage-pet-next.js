@@ -13,13 +13,10 @@ export default function About() {
             </div>
             <div className={styles.text} >
                 <h1>Sobre Mim</h1>
-                <p>
-                    Sou um parágrafo.
-                    Clique aqui para editar e adicionar o seu próprio texto.
-                    É fácil! Basta clicar em "Editar Texto"
-                    ou clicar duas vezes sobre mim e você poderá adicionar o seu
-                    próprio conteúdo e trocar fontes.
-                    Sou um ótimo lugar para você contar sua história.
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
+                    praesentium eos temporibus suscipit fugiat autem consequatur doloremque
+                    neque ipsum distinctio illum, modi ipsa quidem architecto rerum eum
+                    reiciendis odit mollitia!
                 </p>
                 <a href='#' className="btn btn-primary">
                     Leia mais
