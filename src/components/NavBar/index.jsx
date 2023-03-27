@@ -12,11 +12,10 @@ export default function NavBar() {
             </div>
             <div className={styles.listMenu}>
                 <ul>
-                    <li><a href="#">Pagina Inicial</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Serviços</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="#home">Pagina Inicial</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#service">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
                     <div className={styles.buttom}>
                         <a href='#' className="btn btn-primary">
                             LIGUE: (11) 3456-7890

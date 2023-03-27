@@ -6,15 +6,19 @@
     height: 50rem;
     background-color: $colorText;
 
-    footer {
-        height: 5rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
 
-        a {
-            padding: 0 1rem;
-            text-decoration: none;
-        }
+
+
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+
+    a {
+        padding: 0 1rem;
+        text-decoration: none;
     }
 }

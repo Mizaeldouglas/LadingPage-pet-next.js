@@ -8,6 +8,17 @@
     justify-content: space-between;
     padding: 0 10rem;
     align-items: center;
+    position: fixed;
+
+    @include device(mobile) {
+        width: 130rem;
+        height: 5rem;
+    }
+
+    @include device(tablet) {
+        flex-direction: row;
+    }
+
 
     .logo {
         color: $colorText;
@@ -43,4 +54,6 @@
             padding: -10px;
         }
     }
+
+
 }

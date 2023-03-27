@@ -6,7 +6,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 3rem
+    padding-top: 3rem;
+
+    @include device(mobile) {
+        margin-bottom: $marginBottomMobile;
+    }
+
+    @include device(tablet) {
+        flex-direction: column;
+    }
 }
 
 .container {
@@ -14,6 +22,15 @@
     display: flex;
     align-items: center;
     padding-bottom: 10rem;
+
+    @include device(mobile) {
+        margin-bottom: $marginBottomMobile;
+        padding: 5rem 60rem;
+    }
+
+    @include device(tablet) {
+        flex-direction: column;
+    }
 
     .service {
         padding-top: 5rem;

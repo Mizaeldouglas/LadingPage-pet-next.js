@@ -9,6 +9,11 @@
     padding-top: 15rem;
     padding-bottom: 10rem;
 
+    @include device(mobile) {
+        margin-bottom: $marginBottomMobile;
+        padding: 30rem 60rem;
+    }
+
 
     .text {
 

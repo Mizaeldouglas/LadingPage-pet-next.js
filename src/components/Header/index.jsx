@@ -5,7 +5,7 @@ import dog from "../../../public/img/dog.png"
 
 export default function Header() {
     return (
-        <section className={styles.container}>
+        <section id='home' className={styles.container}>
             <div className={styles.text}>
                 <h1>Pet Care</h1>
                 <p>Veterinario a domicilio</p>

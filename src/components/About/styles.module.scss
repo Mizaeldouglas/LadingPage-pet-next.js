@@ -9,6 +9,12 @@
     padding-top: 15rem;
     padding-bottom: 15rem;
 
+    @include device(mobile) {
+        margin-bottom: $marginBottomMobile;
+        padding: 30rem 20rem;
+    }
+
+    @include device(tablet) {}
 
     .image {
         .pet {

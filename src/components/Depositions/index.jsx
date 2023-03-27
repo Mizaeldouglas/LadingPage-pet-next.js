@@ -2,7 +2,7 @@ import styles from './styles.module.scss';
 export default function Depositions() {
     return (
         <>
-            <h1 className={styles.title}>O que os donos dizem</h1>
+            <h1 className={styles.title} id="depositions" >O que os donos dizem</h1>
             <section className={styles.container}>
                 <div className={styles.depositions}>
                     <h3>"Muito Profissional"</h3>

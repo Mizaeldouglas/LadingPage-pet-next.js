@@ -9,14 +9,34 @@
     font-size: 62px;
     color: $colorText;
     padding: 6rem 0rem;
+
+    @include device(mobile) {
+        padding-left: 8rem;
+        width: 80rem;
+    }
+
+    @include device(tablet) {
+        flex-direction: column;
+        width: 80rem;
+    }
 }
 
 .container {
+    @include device(mobile) {
+        margin-bottom: $marginBottomMobile;
+        padding: 5rem 0;
+    }
+
+    @include device(tablet) {
+        flex-direction: column;
+    }
+
     width: 100vw;
     max-width: 120rem;
     margin: 0 auto;
     padding: 0rem 5rem;
     margin-bottom: 10rem;
+
 
     .containerSection {
 
